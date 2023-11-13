@@ -8,6 +8,7 @@ import {
     setInputModal,
     setSendModal,
 } from "../store/reducer/action";
+import Image from "next/image";
 
 const Modals = () => {
     const [state, dispatch] = useStore();
@@ -56,10 +57,18 @@ const Modals = () => {
                     <BiX />
                 </button>
                 <div className="w-[40%] max-md:hidden flex items-center justify-center border-r-[1px] pr-1">
-                    <img className="w-full " src="./avataForm.svg" alt="" />
+                    <Image
+                        width={100}
+                        height={100}
+                        className="w-full "
+                        src="./avataForm.svg"
+                        alt=""
+                    />
                 </div>
                 <div className="forms  ">
-                    <img
+                    <Image
+                        width={100}
+                        height={100}
                         src="./logo-ntechs.png"
                         alt=""
                         className="w-[150px] mx-auto"

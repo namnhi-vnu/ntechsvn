@@ -35,7 +35,7 @@ const Page = () => {
             <div className="container mx-auto max-md:px-2">
                 <BannerBlog />
                 <h2 className="text-center py-8 text-2xl">Coming Soon</h2>
-                <div className="list grid grid-cols-4 gap-8 py-8 max-md:grid-cols-2 max-md:gap-4">
+                {/* <div className="list grid grid-cols-4 gap-8 py-8 max-md:grid-cols-2 max-md:gap-4">
                     {!isLoading &&
                         posts.map((post) => (
                             <div
@@ -68,7 +68,7 @@ const Page = () => {
                                 </p>
                             </div>
                         ))}
-                </div>
+                </div> */}
                 {isLoading && <LoadingBlog />}
             </div>
         </div>

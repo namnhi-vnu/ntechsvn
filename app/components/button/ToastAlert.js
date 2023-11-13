@@ -13,7 +13,7 @@ const ToastAlert = () => {
         return () => {
             clearInterval(intervalId);
         };
-    }, []);
+    }, [dispatch]);
 
     return (
         <div
