@@ -15,6 +15,7 @@ import {
 const page = () => {
     return (
         <>
+            <title>Liên Hệ - NTechs</title>
             <div className="page-contacts-main">
                 <div className="banner-contact mt-3  relative">
                     <div className="container mx-auto">
