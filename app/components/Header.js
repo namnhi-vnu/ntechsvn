@@ -281,7 +281,7 @@ const Header = () => {
                                         Giải Pháp
                                     </Link>
                                 </li>
-                                <li className="text-[#084183] font-semibold hover:text-hover py-2">
+                                {/* <li className="text-[#084183] font-semibold hover:text-hover py-2">
                                     <Link
                                         href="#"
                                         className={`${
@@ -292,7 +292,7 @@ const Header = () => {
                                     >
                                         Ứng Dụng
                                     </Link>
-                                </li>
+                                </li> */}
                                 <li className="text-[#084183] font-semibold hover:text-hover py-2">
                                     <Link
                                         href="#"
@@ -327,6 +327,18 @@ const Header = () => {
                                         } p-2 rounded-lg flex items-center gap-1 `}
                                     >
                                         Liên Hệ
+                                    </Link>
+                                </li>
+                                <li className="text-[#084183] font-semibold hover:text-hover py-2">
+                                    <Link
+                                        href="/tuyen-dung"
+                                        className={`${
+                                            router === "/tuyen-dung"
+                                                ? "bg-hover  hover:text-white text-white hover:bg-hover "
+                                                : "hover:bg-red-100"
+                                        } p-2 rounded-lg flex items-center gap-1 `}
+                                    >
+                                        Tuyển dụng
                                     </Link>
                                 </li>
                                 <li

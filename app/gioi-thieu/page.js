@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 const About = () => {
     return (
         <>
@@ -58,7 +59,7 @@ const About = () => {
                                     />
                                 </div>
                                 <div className="flex-1 max-md:order-first">
-                                    <h2 className="text-[1.5em] text-ntechs font-medium z-30 relative">
+                                    <h2 className="text-[1.5em] text-ntechs font-medium z-30 relative max-md:text-center">
                                         Về chúng tôi
                                     </h2>
                                     <p className="text-[#333] z-20 relative">
@@ -92,7 +93,7 @@ const About = () => {
                     <div className="">
                         <div className="container mx-auto py-8 max-md:p-4">
                             <div>
-                                <h2 className="text-[2em] text-ntechs text-center font-semibold">
+                                <h2 className="text-[2em] text-ntechs text-center font-semibold max-md:text-[1.6em]">
                                     Mục tiêu sắp tới của NTechs
                                 </h2>
                             </div>
@@ -158,6 +159,233 @@ const About = () => {
                                                 lợi nhuận, tối ưu chi phí và
                                                 nâng cao giá trị doanh nghiệp.
                                             </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="py-8">
+                        <div className="container mx-auto max-md:px-2">
+                            <div>
+                                <div className="text-center">
+                                    <h2 className="text-[2em] font-semibold text-ntechs max-md:text-[1.6em]">
+                                        Giá trị cốt lõi
+                                    </h2>
+                                    <p className="text-ntechs py-2">
+                                        NTECHS LUÔN HƯỚNG ĐẾN QUYỀN LỢI CỦA
+                                        KHÁCH HÀNG
+                                    </p>
+                                </div>
+                                <div className="pt-8">
+                                    <div className="grid grid-cols-4 gap-4 max-md:grid-cols-2 max-md:gap-2">
+                                        <div className="item bg-item1 p-4 rounded-lg">
+                                            <div className="titles">
+                                                <h2 className="text-[1.6em] text-center text-white font-semibold max-md:text-[1.2em]">
+                                                    1. Tập trung vào khách hàng
+                                                </h2>
+                                            </div>
+                                            <div className="imgs flex items-center justify-center h-full max-md:h-auto">
+                                                <Image
+                                                    src="/business-deal-animate.svg"
+                                                    width={232}
+                                                    height={232}
+                                                    className="w-full max-w-[232px]"
+                                                />
+                                            </div>
+                                        </div>
+                                        <div className="item bg-item2 p-4 rounded-lg">
+                                            <div className="titles">
+                                                <h2 className="text-[1.6em] text-center text-white font-semibold max-md:text-[1.2em]">
+                                                    2. Hành động tận tâm
+                                                </h2>
+                                            </div>
+                                            <div className="imgs flex items-center justify-center h-full max-md:h-auto">
+                                                <Image
+                                                    src="/webinar-rafiki.svg"
+                                                    width={232}
+                                                    height={232}
+                                                    className="w-full max-w-[232px]"
+                                                />
+                                            </div>
+                                        </div>
+                                        <div className="item bg-item3 p-4 rounded-lg">
+                                            <div className="titles">
+                                                <h2 className="text-[1.6em] text-center text-white font-semibold max-md:text-[1.2em]">
+                                                    3. Tốc độ nhanh
+                                                </h2>
+                                            </div>
+                                            <div className="imgs flex items-center justify-center h-full max-md:h-auto">
+                                                <Image
+                                                    src="/deadline-pana.svg"
+                                                    width={232}
+                                                    height={232}
+                                                    className="w-full max-w-[232px]"
+                                                />
+                                            </div>
+                                        </div>
+                                        <div className="item bg-item4 p-4 rounded-lg">
+                                            <div className="titles">
+                                                <h2 className="text-[1.6em] text-center text-white font-semibold max-md:text-[1.2em]">
+                                                    4. Đổi mới liên tục
+                                                </h2>
+                                            </div>
+                                            <div className="imgs flex items-center justify-center h-full max-md:h-auto">
+                                                <Image
+                                                    src="/renew.svg"
+                                                    width={232}
+                                                    height={232}
+                                                    className="w-full max-w-[232px]"
+                                                />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="py-8">
+                        <div className="container mx-auto max-md:px-2">
+                            <div className="">
+                                <div className="titles text-center pb-8">
+                                    <h2 className="text-[2em] text-ntechs text-center font-semibold max-md:text-[1.6em]">
+                                        Các sản phẩm chủ đạo của NTechs
+                                    </h2>
+                                    <p className="py-2 text-ntechs">
+                                        KHÔNG CHỈ LÀ NỀN TẢNG ỨNG DỤNG WEB, APP,
+                                        ERP...
+                                    </p>
+                                </div>
+                                <div className="pt-8">
+                                    <div className="grid grid-cols-2 gap-8 max-md:grid-cols-1">
+                                        <div className="item flex gap-4 max-md:flex-col max-md:justify-center max-md:items-center shadow-md p-3 rounded-lg">
+                                            <div>
+                                                <Image
+                                                    src="/renew.svg"
+                                                    width={230}
+                                                    height={230}
+                                                    className="min-w-[230px] rounded-full"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <div>
+                                                <h2 className="text-[1.4em] font-medium pb-2 group">
+                                                    <Link
+                                                        href="#"
+                                                        className="group-hover:text-hover"
+                                                    >
+                                                        <span className="group-hover:text-ntechs">
+                                                            NTechs Web
+                                                        </span>{" "}
+                                                        - Giải pháp thiết kế
+                                                        website chuẩn SEO,
+                                                        chuyên nghiệp
+                                                    </Link>
+                                                </h2>
+                                                <p className="text-[#7e7f7f] text-justify">
+                                                    Giúp bạn thiết kế website
+                                                    chuyên nghiệp với hơn 400
+                                                    giao diện đẹp mắt cho các
+                                                    ngành nghề.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div className="item flex gap-4 max-md:flex-col max-md:justify-center max-md:items-center shadow-md p-3 rounded-lg">
+                                            <div>
+                                                <Image
+                                                    src="/app-mb.svg"
+                                                    width={230}
+                                                    height={230}
+                                                    className="min-w-[230px]"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <div>
+                                                <h2 className="text-[1.4em] font-medium pb-2 group">
+                                                    <Link
+                                                        href="#"
+                                                        className="group-hover:text-hover"
+                                                    >
+                                                        <span className="group-hover:text-ntechs">
+                                                            NTechs APP
+                                                        </span>{" "}
+                                                        - Giải pháp thiết kế APP
+                                                        chuyên nghiệp
+                                                    </Link>
+                                                </h2>
+                                                <p className="text-[#7e7f7f] text-justify">
+                                                    Hỗ trợ bạn trong việc thiết
+                                                    kế ứng dụng chuyên nghiệp
+                                                    với những giải pháp phù hợp
+                                                    cho từng ngành nghề.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div className="item flex gap-4 max-md:flex-col max-md:justify-center max-md:items-center shadow-md p-3 rounded-lg">
+                                            <div>
+                                                <Image
+                                                    src="/erpsgt.png"
+                                                    width={230}
+                                                    height={230}
+                                                    className="min-w-[230px]"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <div>
+                                                <h2 className="text-[1.4em] font-medium pb-2 group">
+                                                    <Link
+                                                        href="#"
+                                                        className="group-hover:text-hover"
+                                                    >
+                                                        <span className="group-hover:text-ntechs">
+                                                            NTechs ERP
+                                                        </span>{" "}
+                                                        - Giải pháp thông minh
+                                                        cho doanh nghiệp vừa và
+                                                        nhỏ
+                                                    </Link>
+                                                </h2>
+                                                <p className="text-[#7e7f7f] text-justify">
+                                                    Chúng tôi cam kết cung cấp
+                                                    cho bạn một giải pháp ERP
+                                                    chuyên nghiệp, tối ưu hóa
+                                                    cho doanh nghiệp vừa và nhỏ.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div className="item flex gap-4 max-md:flex-col max-md:justify-center max-md:items-center shadow-md p-3 rounded-lg">
+                                            <div>
+                                                <Image
+                                                    src="/affiliate.svg"
+                                                    width={230}
+                                                    height={230}
+                                                    className="min-w-[230px] rounded-full"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <div>
+                                                <h2 className="text-[1.4em] font-medium pb-2 group">
+                                                    <Link
+                                                        href="#"
+                                                        className="group-hover:text-hover"
+                                                    >
+                                                        <span className="group-hover:text-ntechs">
+                                                            NTechs Affiliate
+                                                        </span>{" "}
+                                                        - Giải pháp thiết kế hệ
+                                                        thống Affiliate, chuyên
+                                                        nghiệp
+                                                    </Link>
+                                                </h2>
+                                                <p className="text-[#7e7f7f] text-justify">
+                                                    Chúng tôi có kinh nghiệm
+                                                    trong việc thiết kế hệ thống
+                                                    Affiliate chuyên nghiệp, phù
+                                                    hợp và linh hoạt để đáp ứng
+                                                    các nhu cầu đa dạng của các
+                                                    ngành nghề khác nhau.
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

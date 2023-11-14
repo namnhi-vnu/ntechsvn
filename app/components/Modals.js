@@ -69,7 +69,7 @@ const Modals = () => {
                     <Image
                         width={100}
                         height={100}
-                        src="./logo-ntechs.png"
+                        src="/logo-ntechs.png"
                         alt=""
                         className="w-[150px] mx-auto"
                     />

@@ -201,7 +201,8 @@ body::-webkit-scrollbar-thumb {
         rgba(229, 247, 255, 0.8) 100%
     );
 }
-.solution {
+.solution,
+.recruitment {
     background-image: linear-gradient(
         to right bottom,
         rgb(246, 249, 252) 0%,
